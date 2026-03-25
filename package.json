@@ -1,0 +1,26 @@
+{
+  "name": "simu-learn",
+  "version": "1.0.0",
+  "description": "COMSOL & ANSYS 仿真学习平台 - 电子封装、热电材料、多物理场仿真教程",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "deploy": "vitepress build docs && gh-pages -d docs/.vitepress/dist"
+  },
+  "keywords": [
+    "comsol",
+    "ansys",
+    "simulation",
+    "multiphysics",
+    "electronic-packaging",
+    "thermoelectric"
+  ],
+  "author": "WCG0726",
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "vitepress": "^1.6.4"
+  }
+}
