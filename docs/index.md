@@ -1,9 +1,9 @@
 ---
 layout: home
 hero:
-  name: COMSOL & ANSYS
-  text: 仿真学习平台
-  tagline: 从入门到进阶，掌握多物理场仿真技术
+  name: 仿真学习平台
+  text: COMSOL & ANSYS & DEFORM
+  tagline: 多物理场仿真、金属成形、电子封装 - 从入门到进阶
   image:
     src: /hero.svg
     alt: 仿真学习
@@ -26,6 +26,11 @@ features:
     details: 业界领先的有限元分析软件，涵盖结构、流体、电磁等领域
     link: /ansys/
   
+  - icon: 🔨
+    title: DEFORM
+    details: 专业金属成形仿真软件，锻造、挤压、热处理等工艺优化
+    link: /deform/
+  
   - icon: 📦
     title: 电子封装
     details: 热管理、应力分析、焊点可靠性、封装优化
@@ -35,11 +40,6 @@ features:
     title: 热电材料
     details: Seebeck/Peltier 效应、热电模块仿真、ZT 值优化
     link: /comsol/thermoelectric/
-  
-  - icon: 🔗
-    title: 热-电-力耦合
-    details: 焦耳热、热应力、电迁移、MEMS 器件多物理场仿真
-    link: /comsol/thermal-electrical-mechanical/
   
   - icon: 🛠️
     title: 实用工具
@@ -86,6 +86,12 @@ features:
 ::: info 案例丰富
 涵盖电子封装、热电材料、热-电-力耦合等多个领域
 :::
+
+---
+
+## ⚠️ 免责声明
+
+**本站内容大部分由 AI 生成，仅供参考学习使用。如有疑问，请以 [COMSOL 官方文档](https://www.comsol.com/documentation)、[ANSYS 官方文档](https://www.ansys.com/documentation-center) 或 [DEFORM 官方网站](https://www.deform.com) 为准。**
 
 <style>
 .learning-path {

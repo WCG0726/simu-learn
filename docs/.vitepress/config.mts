@@ -1,13 +1,13 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'COMSOL & ANSYS 仿真学习平台',
-  description: '电子封装、热电材料、多物理场仿真教程 - 从入门到进阶',
+  title: '仿真学习平台',
+  description: 'COMSOL、ANSYS、DEFORM 仿真教程 - 电子封装、金属成形、多物理场仿真',
   base: '/simu-learn/',
   
   head: [
     ['link', { rel: 'icon', href: '/simu-learn/favicon.ico' }],
-    ['meta', { name: 'keywords', content: 'COMSOL, ANSYS, 仿真, 电子封装, 热电材料, 多物理场' }],
+    ['meta', { name: 'keywords', content: 'COMSOL, ANSYS, DEFORM, 仿真, 电子封装, 金属成形, 多物理场' }],
     ['meta', { name: 'author', content: 'WCG0726' }]
   ],
 
@@ -26,6 +26,11 @@ export default defineConfig({
         text: 'ANSYS', 
         link: '/ansys/',
         activeMatch: '/ansys/'
+      },
+      { 
+        text: 'DEFORM', 
+        link: '/deform/',
+        activeMatch: '/deform/'
       },
       { 
         text: '工具', 
@@ -158,6 +163,24 @@ export default defineConfig({
             { text: '收敛问题', link: '/faq/convergence' },
             { text: '网格问题', link: '/faq/mesh' },
             { text: '结果验证', link: '/faq/verification' }
+          ]
+        }
+      ],
+      '/deform/': [
+        {
+          text: '📚 入门教程',
+          collapsed: false,
+          items: [
+            { text: 'DEFORM 概述', link: '/deform/' },
+            { text: '安装与配置', link: '/deform/basics/installation' },
+            { text: '界面介绍', link: '/deform/basics/interface' }
+          ]
+        },
+        {
+          text: '🔧 应用案例',
+          collapsed: false,
+          items: [
+            { text: '热锻仿真', link: '/deform/applications/hot-forging' }
           ]
         }
       ]
